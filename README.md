@@ -89,7 +89,7 @@ Notes:
 | Weights & Biases (Enterprise) | Yes                 | Yes                 | No             | Yes                    |
 | Verta (Enterprise, SaaS)      | Yes                 | Yes                 | Yes?           | No                     |
 | Neptune.ai (Enterprise)       | Yes                 | Yes                 | No?            | No                     |
-| Valohai (Enterprise, Pro)     | Yes                 | Yes                 | Yes??          | No?                    |
+| Valohai (Enterprise, Pro)     | Yes                 | Yes                 | Yes?           | No?                    |
 | Comet (Enterprise)            | Yes                 | Yes                 | Yes            | Yes                    |
 
 | Tool                          | Web UI | REST API | CLI  | Python API | Bypass server by CLI / Python API | Native Access Control |
