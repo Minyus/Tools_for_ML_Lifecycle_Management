@@ -19,7 +19,7 @@ Notes:
 | Sacred                        | Free        | Yes               | 3200                                | https://github.com/IDSIA/sacred        |
 | Polyaxon (Community)          | Free        | Yes               | 2600                                | https://github.com/polyaxon/polyaxon   |
 | Allegro Trains                | Free        | Yes               | 2000                                | https://github.com/allegroai/trains    |
-| VertaAI ModelDB (Open Source) | Free        | Yes               | 1100                                | https://github.com/VertaAI/modeldb     |
+| VertaAI ModelDB               | Free        | Yes               | 1100                                | https://github.com/VertaAI/modeldb     |
 | Guild AI                      | Free        | Yes               | 500                                 | https://github.com/guildai/guildai     |
 
 | Tool                          | Backend Metadata Database                     | Backend Artifact Storage                       | K8s      | Server Source Code      | Client Source Code |
@@ -30,7 +30,7 @@ Notes:
 | Sacred                        | MongoDB                                       | MongoDB                                        | Optional | Open (JavaScript)       | Open (Python)      |
 | Polyaxon (Community)          | PostgreSQL                                    | Object (S3, etc), File System                  | Required | Open (Python, Java, Go) | Open (Python)      |
 | Allegro Trains                | Elasticsearch & MongoDB                       | Object (S3, etc), File System                  | Optional | Open (Python)           | Open (Python)      |
-| VertaAI ModelDB (Open Source) | PostgreSQL                                    | Object (S3, etc), File System                  | Optional | Open (Java)             | Open (Python)      |
+| VertaAI ModelDB               | PostgreSQL                                    | Object (S3, etc), File System                  | Optional | Open (Java)             | Open (Python)      |
 | Guild AI                      | File System                                   | File System                                    | Optional | No server               | Open (Python)      |
 
 | Tool                          | Experiment Tracking | Artifact Repository | Model Registry | Hyper-parameter Tuning |
@@ -41,7 +41,7 @@ Notes:
 | Sacred                        | Yes                 | Yes                 | No             | No                     |
 | Polyaxon (Community)          | Yes                 | Yes                 | No             | Yes?                   |
 | Allegro Trains                | Yes                 | Yes                 | Yes?           | Yes                    |
-| VertaAI ModelDB (Open Source) | Yes                 | Yes                 | Yes?           | No                     |
+| VertaAI ModelDB               | Yes                 | Yes                 | Yes            | No                     |
 | Guild AI                      | Yes                 | No                  | No             | Yes                    |
 
 | Tool                          | Web UI                    | REST API  | CLI  | Python API | Bypass server by CLI / Python API | Native Access Control |
@@ -52,7 +52,7 @@ Notes:
 | Sacred                        | Yes (Omniboard)           | No        | Yes  | Yes        | No?                               | No                    |
 | Polyaxon (Community)          | Yes                       | HTTP      | Yes  | Yes        | No?                               | No                    |
 | Allegro Trains                | Yes                       | No?       | No?  | Yes        | No?                               | No                    |
-| VertaAI ModelDB (Open Source) | Yes                       | No        | No?  | Yes        | No                                | No                    |
+| VertaAI ModelDB               | Yes                       | No        | No?  | Yes        | No                                | No                    |
 | Guild AI                      | No (TensorBoard only)     | No server | Yes  | ?          | Yes                               | No                    |
 
 
