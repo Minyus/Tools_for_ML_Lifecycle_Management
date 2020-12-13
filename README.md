@@ -120,6 +120,6 @@ Notes:
 
 ## Allegro Trains Architecture
 ![trains_architecture](https://allegro.ai/docs/img/Train_Server_Diagram_light-mode_2x.png)
-## VertaAI ModelDB Architecture
 
+## VertaAI ModelDB Architecture
 ![modeldb_architecture](https://github.com/VertaAI/modeldb/blob/master/doc-resources/images/modeldb-architecture.png?raw=true)
