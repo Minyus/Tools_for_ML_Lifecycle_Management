@@ -40,7 +40,7 @@ Notes:
 | Pachyderm (Community)         | No                  | Yes                 | No             | No                     |
 | Sacred                        | Yes                 | Yes                 | No             | No                     |
 | Polyaxon (Community)          | Yes                 | Yes                 | No             | Yes?                   |
-| Allegro Trains                | Yes                 | Yes                 | Yes?           | Yes                    |
+| Allegro Trains                | Yes                 | Yes                 | No             | Yes                    |
 | VertaAI ModelDB               | Yes                 | Yes                 | Yes            | No                     |
 | Guild AI                      | Yes                 | No                  | No             | Yes                    |
 
