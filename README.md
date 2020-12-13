@@ -102,3 +102,15 @@ Notes:
 | Neptune.ai (Enterprise)       | Yes    | No?      | ?    | Yes        | No?                               | ?                     |
 | Valohai (Enterprise, Pro)     | Yes    | No?      | No?  | Yes        | No?                               | ?                     |
 | Comet (Enterprise)            | Yes    | HTTP     | Yes  | Yes        | No?                               | Yes                   |
+
+&nbsp;
+## MLflow
+
+### MLflow Architecture
+![mlflow_architecture](mlflow/mlflow_architecture.drawio.svg)
+
+### MLflow Experiment Tracking
+![mlflow_experiment_tracking](mlflow/mlflow_experiment_tracking.drawio.svg)
+
+### MLflow Model Registry
+![mlflow_model_registry](mlflow/mlflow_model_registry.drawio.svg)
