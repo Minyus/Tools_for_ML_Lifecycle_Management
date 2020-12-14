@@ -11,57 +11,57 @@ Notes:
 &nbsp;
 ## Free tools
 
-| Tool                               | Monthly Fee | On-prem supported | # Stars on GitHub repository (100s) | URL                                    |
-|------------------------------------|-------------|-------------------|-------------------------------------|----------------------------------------|
-| MLflow                             | Free        | Yes               | 8000                                | https://github.com/mlflow/mlflow       |
-| DVC                                | Free        | Yes               | 6900                                | https://github.com/iterative/dvc       |
-| Pachyderm (Community)              | Free        | Yes               | 4800                                | https://github.com/pachyderm/pachyderm |
-| Sacred                             | Free        | Yes               | 3200                                | https://github.com/IDSIA/sacred        |
-| Polyaxon (Community)               | Free        | Yes               | 2600                                | https://github.com/polyaxon/polyaxon   |
-| Allegro Trains                     | Free        | Yes               | 2000                                | https://github.com/allegroai/trains    |
-| VertaAI ModelDB                    | Free        | Yes               | 1100                                | https://github.com/VertaAI/modeldb     |
-| Kubeflow Katib                     | Free        | Yes               | 900                                 | https://github.com/kubeflow/katib      |
-| Guild AI                           | Free        | Yes               | 500                                 | https://github.com/guildai/guildai     |
-| Google ML Metadata (+ Kubeflow UI) | Free        | Yes               | 200                                 | https://github.com/google/ml-metadata  |
+| Tool                  | Monthly Fee | On-prem supported | # Stars on GitHub repository (100s) | URL                                    |
+|-----------------------|-------------|-------------------|-------------------------------------|----------------------------------------|
+| MLflow                | Free        | Yes               | 8000                                | https://github.com/mlflow/mlflow       |
+| DVC                   | Free        | Yes               | 6900                                | https://github.com/iterative/dvc       |
+| Pachyderm (Community) | Free        | Yes               | 4800                                | https://github.com/pachyderm/pachyderm |
+| Sacred                | Free        | Yes               | 3200                                | https://github.com/IDSIA/sacred        |
+| Polyaxon (Community)  | Free        | Yes               | 2600                                | https://github.com/polyaxon/polyaxon   |
+| Allegro Trains        | Free        | Yes               | 2000                                | https://github.com/allegroai/trains    |
+| VertaAI ModelDB       | Free        | Yes               | 1100                                | https://github.com/VertaAI/modeldb     |
+| Kubeflow Katib        | Free        | Yes               | 900                                 | https://github.com/kubeflow/katib      |
+| Guild AI              | Free        | Yes               | 500                                 | https://github.com/guildai/guildai     |
+| Kubeflow Metadata     | Free        | Yes               | 100                                 | https://github.com/kubeflow/metadata   |
 
-| Tool                               | Backend Metadata Database                     | Backend Artifact Storage                       | K8s      | Server Source Code      | Client Source Code |
-|------------------------------------|-----------------------------------------------|------------------------------------------------|----------|-------------------------|--------------------|
-| MLflow                             | SQL DB (PostgreSQL / MySQL / MS SQL / SQLite) | Object (S3, etc), File System, HDFS, FTP, SFTP | Optional | Open (JavaScript)       | Open (Python)      |
-| DVC                                | Git Repository                                | Object (S3, etc), File System                  | Optional | No server               | Open (Python)      |
-| Pachyderm (Community)              | etcd                                          | Object (S3)                                    | Required | Open (Go)               | Open (Python)      |
-| Sacred                             | MongoDB                                       | MongoDB                                        | Optional | Open (JavaScript)       | Open (Python)      |
-| Polyaxon (Community)               | PostgreSQL                                    | Object (S3, etc), File System                  | Required | Open (Python, Java, Go) | Open (Python)      |
-| Allegro Trains                     | Elasticsearch & MongoDB                       | Object (S3, etc), File System                  | Optional | Open (Python)           | Open (Python)      |
-| VertaAI ModelDB                    | PostgreSQL                                    | Object (S3, etc), File System                  | Optional | Open (Java)             | Open (Python)      |
-| Kubeflow Katib                     | MySQL                                         | -                                              | Required | Open (Go, JavaScript)   | Open (Python)      |
-| Guild AI                           | File System                                   | File System                                    | Optional | No server               | Open (Python)      |
-| Google ML Metadata (+ Kubeflow UI) | MySQL / SQLite                                | Object (GCS), File System                      | Optional | Open (C++)              | Open (Python)      |
+| Tool                  | Backend Metadata Database                     | Backend Artifact Storage                       | K8s      | Server Source Code                     | Client Source Code |
+|-----------------------|-----------------------------------------------|------------------------------------------------|----------|----------------------------------------|--------------------|
+| MLflow                | SQL DB (PostgreSQL / MySQL / MS SQL / SQLite) | Object (S3, etc), File System, HDFS, FTP, SFTP | Optional | Open (JavaScript)                      | Open (Python)      |
+| DVC                   | Git Repository                                | Object (S3, etc), File System                  | Optional | No server                              | Open (Python)      |
+| Pachyderm (Community) | etcd                                          | Object (S3)                                    | Required | Open (Go)                              | Open (Python)      |
+| Sacred                | MongoDB                                       | MongoDB                                        | Optional | Open (JavaScript)                      | Open (Python)      |
+| Polyaxon (Community)  | PostgreSQL                                    | Object (S3, etc), File System                  | Required | Open (Python, Java, Go)                | Open (Python)      |
+| Allegro Trains        | Elasticsearch & MongoDB                       | Object (S3, etc), File System                  | Optional | Open (Python)                          | Open (Python)      |
+| VertaAI ModelDB       | PostgreSQL                                    | Object (S3, etc), File System                  | Optional | Open (Java)                            | Open (Python)      |
+| Kubeflow Katib        | MySQL                                         | -                                              | Required | Open (Go, JavaScript)                  | Open (Python)      |
+| Guild AI              | File System                                   | File System                                    | Optional | No server                              | Open (Python)      |
+| Kubeflow Metadata     | MySQL / SQLite                                | Object (GCS), File System                      | Optional | Open (JavaScript, TypeScript, Go, C++) | Open (Python)      |
 
-| Tool                               | Experiment Tracking | Artifact Repository | Model Registry | Hyper-parameter Tuning | Distributed Hyper-parameter Tuning |
-|------------------------------------|---------------------|---------------------|----------------|------------------------|------------------------------------|
-| MLflow                             | Yes                 | Yes                 | Yes            | No                     | No                                 |
-| DVC                                | No                  | Yes                 | No             | No                     | No                                 |
-| Pachyderm (Community)              | No                  | Yes                 | No             | No                     | No                                 |
-| Sacred                             | Yes                 | Yes                 | No             | No                     | No                                 |
-| Polyaxon (Community)               | Yes                 | Yes                 | No             | Yes                    | No                                 |
-| Allegro Trains                     | Yes                 | Yes                 | No             | Yes                    | No                                 |
-| VertaAI ModelDB                    | Yes                 | Yes                 | Yes            | No                     | No                                 |
-| Kubeflow Katib                     | No                  | No                  | No             | Yes                    | Yes                                |
-| Guild AI                           | Yes                 | No                  | No             | Yes                    | No                                 |
-| Google ML Metadata (+ Kubeflow UI) | Yes                 | Yes                 | No             | No                     | No                                 |
+| Tool                  | Experiment Tracking | Artifact Repository | Model Registry | Hyper-parameter Tuning | Distributed Hyper-parameter Tuning |
+|-----------------------|---------------------|---------------------|----------------|------------------------|------------------------------------|
+| MLflow                | Yes                 | Yes                 | Yes            | No                     | No                                 |
+| DVC                   | No                  | Yes                 | No             | No                     | No                                 |
+| Pachyderm (Community) | No                  | Yes                 | No             | No                     | No                                 |
+| Sacred                | Yes                 | Yes                 | No             | No                     | No                                 |
+| Polyaxon (Community)  | Yes                 | Yes                 | No             | Yes                    | No                                 |
+| Allegro Trains        | Yes                 | Yes                 | No             | Yes                    | No                                 |
+| VertaAI ModelDB       | Yes                 | Yes                 | Yes            | No                     | No                                 |
+| Kubeflow Katib        | No                  | No                  | No             | Yes                    | Yes                                |
+| Guild AI              | Yes                 | No                  | No             | Yes                    | No                                 |
+| Kubeflow Metadata     | Yes                 | Yes                 | No             | No                     | No                                 |
 
-| Tool                               | Web UI                    | REST API  | CLI  | Python API | Bypass server by CLI / Python API | Native Access Control |
-|------------------------------------|---------------------------|-----------|------|------------|-----------------------------------|-----------------------|
-| MLflow                             | Yes                       | HTTP      | Yes  | Yes        | Yes                               | No                    |
-| DVC                                | No (GitLab / GitHub only) | No server | Yes  | Yes        | Yes                               | No                    |
-| Pachyderm (Community)              | No                        | ProtoBuf  | Yes  | Yes        | No?                               | No                    |
-| Sacred                             | Yes (Omniboard)           | No        | Yes  | Yes        | No?                               | No                    |
-| Polyaxon (Community)               | Yes                       | HTTP      | Yes  | Yes        | No?                               | No                    |
-| Allegro Trains                     | Yes                       | No?       | No?  | Yes        | No?                               | No                    |
-| VertaAI ModelDB                    | Yes                       | No        | No?  | Yes        | No                                | No                    |
-| Kubeflow Katib                     | Yes (Kubeflow UI)         | gRPC      | Yes  | Yes        | No                                | No                    |
-| Guild AI                           | No (TensorBoard only)     | No server | Yes  | ?          | Yes                               | No                    |
-| Google ML Metadata (+ Kubeflow UI) | Yes (Kubeflow UI)         | gRPC      | Yes  | Yes        | No                                | No                    |
+| Tool                  | Web UI                    | REST API  | CLI  | Python API | Bypass server by CLI / Python API | Native Access Control |
+|-----------------------|---------------------------|-----------|------|------------|-----------------------------------|-----------------------|
+| MLflow                | Yes                       | HTTP      | Yes  | Yes        | Yes                               | No                    |
+| DVC                   | No (GitLab / GitHub only) | No server | Yes  | Yes        | Yes                               | No                    |
+| Pachyderm (Community) | No                        | ProtoBuf  | Yes  | Yes        | No?                               | No                    |
+| Sacred                | Yes (Omniboard)           | No        | Yes  | Yes        | No?                               | No                    |
+| Polyaxon (Community)  | Yes                       | HTTP      | Yes  | Yes        | No?                               | No                    |
+| Allegro Trains        | Yes                       | No?       | No?  | Yes        | No?                               | No                    |
+| VertaAI ModelDB       | Yes                       | No        | No?  | Yes        | No                                | No                    |
+| Kubeflow Katib        | Yes (Kubeflow UI)         | gRPC      | Yes  | Yes        | No                                | No                    |
+| Guild AI              | No (TensorBoard only)     | No server | Yes  | ?          | Yes                               | No                    |
+| Kubeflow Metadata     | Yes (Kubeflow UI)         | gRPC      | Yes  | Yes        | No                                | No                    |
 
 &nbsp;
 ## Paid tools
@@ -131,5 +131,5 @@ Notes:
 ## VertaAI ModelDB Architecture
 ![modeldb_architecture](https://github.com/VertaAI/modeldb/blob/master/doc-resources/images/modeldb-architecture.png?raw=true)
 
-## Google ML Metadata Architecture
+## Google ML Metadata (Core of Kubeflow Metadata) Architecture
 ![ml_metadata_architecture](https://www.tensorflow.org/tfx/guide/images/mlmd_overview.png)
