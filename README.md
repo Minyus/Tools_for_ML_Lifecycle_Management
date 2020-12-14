@@ -33,16 +33,16 @@ Notes:
 | VertaAI ModelDB               | PostgreSQL                                    | Object (S3, etc), File System                  | Optional | Open (Java)             | Open (Python)      |
 | Guild AI                      | File System                                   | File System                                    | Optional | No server               | Open (Python)      |
 
-| Tool                          | Experiment Tracking | Artifact Repository | Model Registry | Hyper-parameter Tuning |
-|-------------------------------|---------------------|---------------------|----------------|------------------------|
-| MLflow                        | Yes                 | Yes                 | Yes            | No                     |
-| DVC                           | No                  | Yes                 | No             | No                     |
-| Pachyderm (Community)         | No                  | Yes                 | No             | No                     |
-| Sacred                        | Yes                 | Yes                 | No             | No                     |
-| Polyaxon (Community)          | Yes                 | Yes                 | No             | Yes?                   |
-| Allegro Trains                | Yes                 | Yes                 | No             | Yes                    |
-| VertaAI ModelDB               | Yes                 | Yes                 | Yes            | No                     |
-| Guild AI                      | Yes                 | No                  | No             | Yes                    |
+| Tool                  | Experiment Tracking | Artifact Repository | Model Registry | Hyper-parameter Tuning | Distributed Hyper-parameter Tuning |
+|-----------------------|---------------------|---------------------|----------------|------------------------|------------------------------------|
+| MLflow                | Yes                 | Yes                 | Yes            | No                     | No                                 |
+| DVC                   | No                  | Yes                 | No             | No                     | No                                 |
+| Pachyderm (Community) | No                  | Yes                 | No             | No                     | No                                 |
+| Sacred                | Yes                 | Yes                 | No             | No                     | No                                 |
+| Polyaxon (Community)  | Yes                 | Yes                 | No             | Yes                    | No                                 |
+| Allegro Trains        | Yes                 | Yes                 | No             | Yes                    | No                                 |
+| VertaAI ModelDB       | Yes                 | Yes                 | Yes            | No                     | No                                 |
+| Guild AI              | Yes                 | No                  | No             | Yes                    | No                                 |
 
 | Tool                          | Web UI                    | REST API  | CLI  | Python API | Bypass server by CLI / Python API | Native Access Control |
 |-------------------------------|---------------------------|-----------|------|------------|-----------------------------------|-----------------------|
@@ -81,16 +81,16 @@ Notes:
 | Valohai (Enterprise, Pro)     | ?                                             | ?                                              | ?        | Not Open           | Open (Python)      |
 | Comet (Enterprise)            | ?                                             | ?                                              | Optional | Not Open           | No                 |
 
-| Tool                          | Experiment Tracking | Artifact Repository | Model Registry | Hyper-parameter Tuning |
-|-------------------------------|---------------------|---------------------|----------------|------------------------|
-| MLflow (Managed)              | Yes                 | Yes                 | Yes            | No                     |
-| Pachyderm (Enterprise / Hub)  | No                  | Yes                 | No             | No                     |
-| Polyaxon (Enterprise / Cloud) | Yes                 | Yes                 | Yes?           | Yes                    |
-| Weights & Biases (Enterprise) | Yes                 | Yes                 | No             | Yes                    |
-| Verta (Enterprise, SaaS)      | Yes                 | Yes                 | Yes?           | No                     |
-| Neptune.ai (Enterprise)       | Yes                 | Yes                 | No?            | No                     |
-| Valohai (Enterprise, Pro)     | Yes                 | Yes                 | Yes?           | No?                    |
-| Comet (Enterprise)            | Yes                 | Yes                 | Yes            | Yes                    |
+| Tool                          | Experiment Tracking | Artifact Repository | Model Registry | Hyper-parameter Tuning | Distributed Hyper-parameter Tuning |
+|-------------------------------|---------------------|---------------------|----------------|------------------------|------------------------------------|
+| MLflow (Managed)              | Yes                 | Yes                 | Yes            | No                     | No                                 |
+| Pachyderm (Enterprise / Hub)  | No                  | Yes                 | No             | No                     | No                                 |
+| Polyaxon (Enterprise / Cloud) | Yes                 | Yes                 | Yes?           | Yes                    | Yes                                |
+| Weights & Biases (Enterprise) | Yes                 | Yes                 | No             | Yes                    | Yes                                |
+| Verta (Enterprise, SaaS)      | Yes                 | Yes                 | Yes            | No                     | No                                 |
+| Neptune.ai (Enterprise)       | Yes                 | Yes                 | No?            | No                     | No                                 |
+| Valohai (Enterprise, Pro)     | Yes                 | Yes                 | Yes?           | No?                    | No?                                |
+| Comet (Enterprise)            | Yes                 | Yes                 | Yes            | Yes                    | No?                                |
 
 | Tool                          | Web UI | REST API | CLI  | Python API | Bypass server by CLI / Python API | Native Access Control |
 |-------------------------------|--------|----------|------|------------|-----------------------------------|-----------------------|
