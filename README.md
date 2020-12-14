@@ -33,7 +33,7 @@ Notes:
 | Polyaxon (Community)               | PostgreSQL                                    | Object (S3, etc), File System                  | Required | Open (Python, Java, Go) | Open (Python)      |
 | Allegro Trains                     | Elasticsearch & MongoDB                       | Object (S3, etc), File System                  | Optional | Open (Python)           | Open (Python)      |
 | VertaAI ModelDB                    | PostgreSQL                                    | Object (S3, etc), File System                  | Optional | Open (Java)             | Open (Python)      |
-| Kubeflow Katib                     | Google ML Metadata?                           | Google ML Metadata?                            | Required | Open (Go, JavaScript)   | Open (Python)      |
+| Kubeflow Katib                     | MySQL                                         | -                                              | Required | Open (Go, JavaScript)   | Open (Python)      |
 | Guild AI                           | File System                                   | File System                                    | Optional | No server               | Open (Python)      |
 | Google ML Metadata (+ Kubeflow UI) | MySQL / SQLite                                | Object (GCS), File System                      | Optional | Open (C++)              | Open (Python)      |
 
