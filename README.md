@@ -58,18 +58,22 @@ Notes:
 | Guild AI              | File System                                   | File System                                    | Optional | No server                              | Open (Python)      |
 | Kubeflow Metadata     | MySQL / SQLite                                | Object (GCS), File System                      | Optional | Open (JavaScript, TypeScript, Go, C++) | Open (Python)      |
 
-| Tool                  | Experiment Tracking | Artifact Repository | Model Registry | Hyper-parameter Tuning | Distributed Hyper-parameter Tuning |
-|-----------------------|---------------------|---------------------|----------------|------------------------|------------------------------------|
-| MLflow                | Yes                 | Yes                 | Yes            | No                     | No                                 |
-| DVC                   | No                  | Yes                 | No             | No                     | No                                 |
-| Pachyderm (Community) | No                  | Yes                 | No             | No                     | No                                 |
-| Sacred                | Yes                 | Yes                 | No             | No                     | No                                 |
-| Polyaxon (Community)  | Yes                 | Yes                 | No             | Yes                    | No                                 |
-| Allegro Trains        | Yes                 | Yes                 | No             | Yes                    | No                                 |
-| VertaAI ModelDB       | Yes                 | Yes                 | Yes            | No                     | No                                 |
-| Kubeflow Katib        | No                  | No                  | No             | Yes                    | Yes                                |
-| Guild AI              | Yes                 | No                  | No             | Yes                    | No                                 |
-| Kubeflow Metadata     | Yes                 | Yes                 | No             | No                     | No                                 |
+| Tool                  | Experiment Tracking | Artifact Repository | Model Registry | Integrated auto-logging | Hyper-parameter Tuning | Distributed Hyper-parameter Tuning |
+|-----------------------|---------------------|---------------------|----------------|-------------------------|------------------------|------------------------------------|
+| MLflow                | Yes                 | Yes                 | Yes            | Yes                     | No                     | No                                 |
+| DVC                   | No                  | Yes                 | No             | No                      | No                     | No                                 |
+| Pachyderm (Community) | No                  | Yes                 | No             | No                      | No                     | No                                 |
+| Sacred                | Yes                 | Yes                 | No             | No                      | No                     | No                                 |
+| Polyaxon (Community)  | Yes                 | Yes                 | No             | No                      | Yes                    | No                                 |
+| Allegro Trains        | Yes                 | Yes                 | No             | Limited                 | Yes                    | No                                 |
+| VertaAI ModelDB       | Yes                 | Yes                 | Yes            | No                      | No                     | No                                 |
+| Kubeflow Katib        | No                  | No                  | No             | No                      | Yes                    | Yes                                |
+| Guild AI              | Yes                 | No                  | No             | No                      | Yes                    | No                                 |
+| Kubeflow Metadata     | Yes                 | Yes                 | No             | No                      | No                     | No                                 |
+
+Integrated auto-logging
+- MLflow: PyTorch Lightning, Tensorflow/Keras, Gluon, Scikit-learn, LightGBM, XGboost, Spark 3+
+- Allegro Trains: PyTorch Lightning, PyTorch Ignite, Keras Tuner, AutoKeras
 
 | Tool                  | Web UI                    | REST API  | CLI  | Python API | Bypass server by CLI / Python API | Native Access Control |
 |-----------------------|---------------------------|-----------|------|------------|-----------------------------------|-----------------------|
@@ -109,16 +113,22 @@ Notes:
 | Valohai (Enterprise, Pro)     | ?                                             | ?                                              | ?        | Not Open           | Open (Python)      |
 | Comet (Enterprise)            | ?                                             | ?                                              | Optional | Not Open           | No                 |
 
-| Tool                          | Experiment Tracking | Artifact Repository | Model Registry | Hyper-parameter Tuning | Distributed Hyper-parameter Tuning |
-|-------------------------------|---------------------|---------------------|----------------|------------------------|------------------------------------|
-| MLflow (Managed)              | Yes                 | Yes                 | Yes            | No                     | No                                 |
-| Pachyderm (Enterprise / Hub)  | No                  | Yes                 | No             | No                     | No                                 |
-| Polyaxon (Enterprise / Cloud) | Yes                 | Yes                 | Yes?           | Yes                    | Yes                                |
-| Weights & Biases (Enterprise) | Yes                 | Yes                 | No             | Yes                    | Yes                                |
-| Verta (Enterprise, SaaS)      | Yes                 | Yes                 | Yes            | No                     | No                                 |
-| Neptune.ai (Enterprise)       | Yes                 | Yes                 | No?            | No                     | No                                 |
-| Valohai (Enterprise, Pro)     | Yes                 | Yes                 | Yes?           | No?                    | No?                                |
-| Comet (Enterprise)            | Yes                 | Yes                 | Yes            | Yes                    | No?                                |
+| Tool                          | Experiment Tracking | Artifact Repository | Model Registry | Integrated auto-logging | Hyper-parameter Tuning | Distributed Hyper-parameter Tuning |
+|-------------------------------|---------------------|---------------------|----------------|-------------------------|------------------------|------------------------------------|
+| MLflow (Managed)              | Yes                 | Yes                 | Yes            | Yes                     | No                     | No                                 |
+| Pachyderm (Enterprise / Hub)  | No                  | Yes                 | No             | No                      | No                     | No                                 |
+| Polyaxon (Enterprise / Cloud) | Yes                 | Yes                 | Yes?           | No                      | Yes                    | Yes                                |
+| Weights & Biases (Enterprise) | Yes                 | Yes                 | No             | Yes                     | Yes                    | Yes                                |
+| Verta (Enterprise, SaaS)      | Yes                 | Yes                 | Yes            | No                      | No                     | No                                 |
+| Neptune.ai (Enterprise)       | Yes                 | Yes                 | No?            | Yes                     | No                     | No                                 |
+| Valohai (Enterprise, Pro)     | Yes                 | Yes                 | Yes?           | No?                     | No?                    | No?                                |
+| Comet (Enterprise)            | Yes                 | Yes                 | Yes            | Limited                 | Yes                    | No?                                |
+
+Integrated auto-logging
+- MLflow: PyTorch Lightning, Tensorflow/Keras, Gluon, Scikit-learn, LightGBM, XGboost, Spark 3+
+- Weights & Biases: PyTorch Lightning, PyTorch Ignite, Fast.ai, Skorch, Tensorflow, Keras, Scikit-learn, LightGBM, XGBoost, Ray Tune, Catalyst,  Kubeflow Arena, Kubeflow Pipelines 
+- Neptune.ai: PyTorch Lightning, PyTorch Ignite, Fast.ai, Catalyst, LightGBM, XGBoost, Optuna, Skopt
+- Comet: PyTorch Lightning
 
 | Tool                          | Web UI | REST API | CLI  | Python API | Bypass server by CLI / Python API | Native Access Control |
 |-------------------------------|--------|----------|------|------------|-----------------------------------|-----------------------|
