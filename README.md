@@ -2,11 +2,32 @@
 
 Comparison of tools for ML experiment tracking & model management for companies 
 
+Free tools:
+- MLflow
+- DVC
+- Pachyderm (Community)
+- Sacred
+- Polyaxon (Community)
+- Allegro Trains
+- VertaAI ModelDB
+- Kubeflow Katib
+- Guild AI
+- Kubeflow Metadata
+
+Paid tools:
+- MLflow (Managed)
+- Pachyderm (Enterprise / Hub)
+- Polyaxon (Enterprise / Cloud)
+- Weights & Biases (Enterprise)
+- Verta (Enterprise, SaaS)
+- Neptune.ai (Enterprise)
+- Valohai (Enterprise, Pro)
+- Comet (Enterprise)
+
 Notes:
 - Editions limited to a single user, which might be useful for Kaggle competitions and academic research, are excluded.
 - `?` means unclear/uncertain.
 - Tools are ordered by the number of stars in the GitHub repository.
-- Updated on 2020/12/13
 
 &nbsp;
 ## Free tools
