@@ -75,18 +75,18 @@ Integrated auto-logging
 - MLflow: PyTorch Lightning, Tensorflow/Keras, Gluon, Scikit-learn, LightGBM, XGboost, Spark 3+
 - Allegro Trains: PyTorch Lightning, PyTorch Ignite, Keras Tuner, AutoKeras
 
-| Tool                  | Web UI                    | REST API  | CLI  | Python API | Bypass server by CLI / Python API | Native Access Control |
-|-----------------------|---------------------------|-----------|------|------------|-----------------------------------|-----------------------|
-| MLflow                | Yes                       | HTTP      | Yes  | Yes        | Yes                               | No                    |
-| DVC                   | No (GitLab / GitHub only) | No server | Yes  | Yes        | Yes                               | No                    |
-| Pachyderm (Community) | No                        | ProtoBuf  | Yes  | Yes        | No?                               | No                    |
-| Sacred                | Yes (Omniboard)           | No        | Yes  | Yes        | No?                               | No                    |
-| Polyaxon (Community)  | Yes                       | HTTP      | Yes  | Yes        | No?                               | No                    |
-| Allegro Trains        | Yes                       | No?       | No?  | Yes        | No?                               | No                    |
-| VertaAI ModelDB       | Yes                       | No        | No?  | Yes        | No                                | No                    |
-| Kubeflow Katib        | Yes (Kubeflow UI)         | gRPC      | Yes  | Yes        | No                                | No                    |
-| Guild AI              | No (TensorBoard only)     | No server | Yes  | ?          | Yes                               | No                    |
-| Kubeflow Metadata     | Yes (Kubeflow UI)         | gRPC      | Yes  | Yes        | No                                | No                    |
+| Tool                  | Web UI                     | REST API  | CLI  | Python API | Bypass server by CLI / Python API | Native Access Control |
+|-----------------------|----------------------------|-----------|------|------------|-----------------------------------|-----------------------|
+| MLflow                | Yes                        | HTTP      | Yes  | Yes        | Yes                               | No                    |
+| DVC                   | No (GitLab / GitHub only)  | No server | Yes  | Yes        | Yes                               | No                    |
+| Pachyderm (Community) | No                         | ProtoBuf  | Yes  | Yes        | No?                               | No                    |
+| Sacred                | Yes (Omniboard)            | No        | Yes  | Yes        | No?                               | No                    |
+| Polyaxon (Community)  | Yes                        | HTTP      | Yes  | Yes        | No?                               | No                    |
+| Allegro Trains        | Yes                        | No?       | No?  | Yes        | No?                               | No                    |
+| VertaAI ModelDB       | Yes                        | No        | No?  | Yes        | No                                | No                    |
+| Kubeflow Katib        | Yes (Kubeflow UI)          | gRPC      | Yes  | Yes        | No                                | No                    |
+| Guild AI              | Limited (TensorBoard only) | No server | Yes  | ?          | Yes                               | No                    |
+| Kubeflow Metadata     | Limited (Kubeflow UI)      | gRPC      | Yes  | Yes        | No                                | No                    |
 
 &nbsp;
 ## Paid tools
